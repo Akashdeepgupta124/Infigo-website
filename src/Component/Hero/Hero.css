@@ -1,0 +1,106 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+      background-image: repeating-linear-gradient(0deg, rgb(17, 17, 17) 0px, rgb(17, 17, 17) 1px,transparent 1px, transparent 51px),repeating-linear-gradient(90deg, rgb(17, 17, 17) 0px, rgb(17, 17, 17) 1px,transparent 1px, transparent 51px),linear-gradient(90deg, hsl(49,0%,3%),hsl(49,0%,3%));
+      height: 90vh;
+      gap: 20px;
+
+}
+.hero_right{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 90vh;
+}
+.hero_right img{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+    width: 550px;
+    height: 550px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.hero_left{
+    margin-top: 70px;
+    padding-left: 50px;
+}
+.hero_left .gold{
+    color: gold;
+    font-size: 28px;
+}
+
+.hero_left h1{
+    color: white;
+    margin-top: 15px;
+    line-height: 3 rem;
+    font-size: 62px;
+}
+.hero_left p{
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+   
+.btns{
+    display: flex;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+button{
+   
+   border: none;
+   width: 170px;
+   height: 50px;
+   font-size: 14px;
+   font-weight: 600;
+   background-color: gold;
+    padding: 20px 25px;
+    border-radius: 30px;
+    
+    
+}
+
+
+.btns button:hover:nth-child(1){
+    transform: scale(1.1);
+
+}
+.btns button:nth-child(2){
+    background-color: transparent;
+    color: white;
+}
+.btns button:hover:nth-child(2){
+    border-bottom: 2px solid white;
+}
+
+.clients{
+    height: 100px;
+    background: whitesmoke;
+    width: 85%;
+   
+    justify-content: center;
+    border-top-right-radius: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    border-bottom-right-radius: 100px;
+}
+
+.clients .imgs{
+    display: flex;
+    gap: 50px;
+    
+}
+.clients .imgs img{
+    height: 50px;
+    width: 100px;
+}
+
+.client_details{
+   margin-left: 60px;
+   padding-top: 30px;
+   margin-top: 30px;
+}

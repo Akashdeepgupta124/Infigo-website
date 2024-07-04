@@ -1,0 +1,49 @@
+.service{
+    height: 150vh;
+    margin-top: 80px;
+   
+}
+
+.service_header{
+    text-align: center;
+    
+}
+
+.service_container{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-inline: 150px;
+    gap: 50px;
+    margin-top: 60px;
+   
+}
+.service_list{
+    background-color: whitesmoke;
+    height: 350px;
+    padding-inline: 30px;
+    padding-top: 30px;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.service_list:hover{
+    cursor: pointer;
+    background: linear-gradient(135deg, #f5b700 0%, #e6a000 100%);
+    backdrop-filter: blur(10px);
+}
+.service_list h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.service_list p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.action{
+    font-size: 20px;
+    margin-top: 4px;
+}

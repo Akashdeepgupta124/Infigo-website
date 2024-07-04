@@ -1,0 +1,57 @@
+.about{
+    display: flex;
+    padding-inline: 100px;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    height: 90vh;
+    margin-top: 90px;
+
+}
+.about_left img{
+    height: 500px;
+    width: 600px;
+    border-radius: 40px;
+    object-fit: cover;
+
+}
+.about_right h3{
+    font-size: 18px;
+}
+
+.about_right h1{
+    font-size: 40px;
+    margin-top: 20px;
+
+}
+.about_right text{
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.about_listing{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+.about_list{
+    display: flex;
+    gap: 40px;
+}
+
+.about_icon h2{
+    font-size: 25px;
+    position: absolute;
+}
+
+.about_icon .design{
+    content: '';
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: gold;
+    z-index: -1;
+    border-radius: 50%;
+    margin-left: -5px;
+}
